@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Tranquilizer guns (Continued)</name>
   <packageId>Mlie.TranquilizerGuns</packageId>
@@ -29,6 +29,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1261792381
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/TranquilizerGuns][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
     [/tr]
 [/table]
 	
@@ -90,4 +94,3 @@ I guess guns became too weak:
 [/list]
 </description>
 </ModMetaData>
-
