@@ -1,4 +1,7 @@
 # Changelog for TranquilizerGuns
 
+1.3.1 - Migrated from old HugsLib settings
+
+
 1.0.1.0 - Updated to 1.3, fixed issues in 1.2 as well
 

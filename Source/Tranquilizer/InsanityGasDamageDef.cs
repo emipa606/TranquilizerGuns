@@ -1,9 +1,8 @@
 ﻿using Verse;
 
-namespace Wowcheg.Tranquilizer
+namespace Wowcheg.Tranquilizer;
+
+public class InsanityGasDamageDef : DamageDef
 {
-    public class InsanityGasDamageDef : DamageDef
-    {
-        public MentalStateDef mentalStateDef;
-    }
+    public MentalStateDef mentalStateDef;
 }

@@ -1,35 +1,35 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace Wowcheg.Tranquilizer
+namespace Wowcheg.Tranquilizer;
+
+public class ProjectileTranquillizerBullet : Bullet
 {
-    public class ProjectileTranquillizerBullet : Bullet
+    public HediffDef HediffToAdd = HediffDefTranquilizer.Tranquilizer;
+
+    public ThingDefTranquillizerBullet Def => def as ThingDefTranquillizerBullet;
+
+    protected override void Impact(Thing hitThing)
     {
-        public static bool OneHitMechanics;
-        public HediffDef HediffToAdd = HediffDefTranquilizer.Tranquilizer;
-
-        public ThingDefTranquillizerBullet Def => def as ThingDefTranquillizerBullet;
-
-        protected override void Impact(Thing hitThing)
+        base.Impact(hitThing);
+        if (Def == null || hitThing == null || hitThing is not Pawn hitPawn)
         {
-            base.Impact(hitThing);
-            if (Def == null || hitThing == null || hitThing is not Pawn hitPawn)
-            {
-                return;
-            }
+            return;
+        }
 
-            var pawnAnethesized = hitPawn.health?.hediffSet?.GetFirstHediffOfDef(HediffToAdd);
-            var addedSeverity = OneHitMechanics ? 1f : Rand.Range(0.20f, 0.50f) / hitPawn.BodySize;
-            if (pawnAnethesized != null)
-            {
-                pawnAnethesized.Severity += addedSeverity;
-            }
-            else
-            {
-                var hediff = HediffMaker.MakeHediff(HediffToAdd, hitPawn);
-                hediff.Severity = addedSeverity;
-                hitPawn.health?.AddHediff(hediff);
-            }
+        var pawnAnethesized = hitPawn.health?.hediffSet?.GetFirstHediffOfDef(HediffToAdd);
+        var addedSeverity = TranquilizerMod.instance.Settings.ProjectileOneHit
+            ? 1f
+            : Rand.Range(0.20f, 0.50f) / hitPawn.BodySize;
+        if (pawnAnethesized != null)
+        {
+            pawnAnethesized.Severity += addedSeverity;
+        }
+        else
+        {
+            var hediff = HediffMaker.MakeHediff(HediffToAdd, hitPawn);
+            hediff.Severity = addedSeverity;
+            hitPawn.health?.AddHediff(hediff);
         }
     }
 }
