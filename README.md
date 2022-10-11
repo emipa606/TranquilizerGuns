@@ -5,6 +5,8 @@
 Update of Wowchegs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1261792381
 
+- Migrated from old HugsLib settings
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	

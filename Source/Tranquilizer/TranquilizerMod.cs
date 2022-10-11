@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Mlie;
+using UnityEngine;
 using Verse;
 
 namespace Wowcheg.Tranquilizer;
@@ -10,6 +11,8 @@ internal class TranquilizerMod : Mod
     ///     The instance of the settings to be read by the mod
     /// </summary>
     public static TranquilizerMod instance;
+
+    private static string currentVersion;
 
     /// <summary>
     ///     The private settings
@@ -23,6 +26,9 @@ internal class TranquilizerMod : Mod
     public TranquilizerMod(ModContentPack content) : base(content)
     {
         instance = this;
+        currentVersion =
+            VersionFromManifest.GetVersionFromModMetaData(
+                ModLister.GetActiveModWithIdentifier("Mlie.TranquilizerGuns"));
     }
 
     /// <summary>
@@ -82,6 +88,14 @@ internal class TranquilizerMod : Mod
         if (listing_Standard.RadioButton("settings_WeightScaleMechanics".Translate(), !Settings.GasOneHit))
         {
             Settings.GasOneHit = false;
+        }
+
+        if (currentVersion != null)
+        {
+            listing_Standard.Gap();
+            GUI.contentColor = Color.gray;
+            listing_Standard.Label("settings_CurrentModVersion".Translate(currentVersion));
+            GUI.contentColor = Color.white;
         }
 
         listing_Standard.End();

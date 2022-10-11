@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ShellBase">
+    <defName>Shell_Tranquilizer</defName>
+    <label>tranquilizer gas shell</label>
+    <description>A shell filled with tranquilizer gas. Explodes when damaged.</description>
+    <graphicData>
+      <texPath>TranquilizerMod/Things/Item/Projectile/Shell_Tranquilizer</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>TranquilizerGasDamageDef</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_Shell_Tranquilizer</projectileWhenLoaded>
+  </ThingDef>
+  <ThingDef ParentName="ShellBase">
+    <defName>Shell_InsanityGas</defName>
+    <label>insanity gas shell</label>
+    <description>A shell filled with insanity gas. Explodes when damaged.</description>
+    <graphicData>
+      <texPath>TranquilizerMod/Things/Item/Projectile/Shell_InsanityGas</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>InsanityGasDamageDef</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>
+          <min>30</min>
+          <max>60</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Insanity_Gas_Shell_Tranquilizer</projectileWhenLoaded>
+  </ThingDef>
+  <ThingDef ParentName="TrapIEDBase">
+    <defName>Tranquilizer_mine</defName>
+    <label>tranquilizer mine</label>
+    <description>Tranquilizer bottle connected to explosive shells. Sprays cloud of sleeping gas.</description>
+    <graphicData>
+      <texPath>TranquilizerMod/Things/Building/Security/TranquilizerMine</texPath>
+    </graphicData>
+    <costList>
+      <Shell_HighExplosive>2</Shell_HighExplosive>
+      <TranquilizerLiquid>40</TranquilizerLiquid>
+    </costList>
+    <designationHotKey>Misc7</designationHotKey>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>TranquilizerGasDamageDef</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>
+          <min>15</min>
+          <max>15</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <specialDisplayRadius>3.9</specialDisplayRadius>
+  </ThingDef>
+  <ThingDef ParentName="TrapIEDBase">
+    <defName>Insanity_gas_mine</defName>
+    <label>insanity gas mine</label>
+    <description>Insanity liquid bottle connected to explosive shells. Sprays cloud of insanity gas.</description>
+    <graphicData>
+      <texPath>TranquilizerMod/Things/Building/Security/InsanityGasMine</texPath>
+    </graphicData>
+    <costList>
+      <Shell_HighExplosive>2</Shell_HighExplosive>
+      <InsanityLiquid>40</InsanityLiquid>
+    </costList>
+    <designationHotKey>Misc7</designationHotKey>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>InsanityGasDamageDef</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>
+          <min>15</min>
+          <max>15</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <specialDisplayRadius>3.9</specialDisplayRadius>
+    <researchPrerequisites>
+      <li>InsanityGasMinesResearch</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BaseMakeableGrenade">
+    <defName>Weapon_GrenadeTranquilizer</defName>
+    <label>tranquilizer grenades</label>
+    <description>Tranquilizer grenades.</description>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>TranquilizerMod/Things/Item/Equipment/WeaponRanged/TranqGrenades</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <Mass>3</Mass>
+      <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+      <WorkToMake>12000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>TranquilizerGuns</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <TranquilizerLiquid>20</TranquilizerLiquid>
+    </costList>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <label>throw tranquilizer grenade</label>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>12.9</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>1.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>Tranquilizer_grenade</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.66</explosiveRadius>
+        <explosionEffect>TranquilizerExplosion</explosionEffect>
+        <explosiveDamageType>TranquilizerGasDamageDef</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

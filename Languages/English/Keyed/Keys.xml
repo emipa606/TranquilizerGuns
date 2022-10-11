@@ -4,4 +4,5 @@
   <Gas_mechanics_settings_description>Gas mechanics</Gas_mechanics_settings_description>
   <settings_WeightScaleMechanics>Weight scale</settings_WeightScaleMechanics>
   <settings_OneHitMechanics>One hit</settings_OneHitMechanics>
+  <settings_CurrentModVersion>Installed mod-version: {0}</settings_CurrentModVersion>
 </LanguageData>
