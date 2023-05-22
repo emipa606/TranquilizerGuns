@@ -22,8 +22,8 @@
       <li>TranquilizerLiquidResearch</li>
       <li>Gunsmithing</li>
     </prerequisites>
-    <researchViewX>5</researchViewX>
-    <researchViewY>3.45</researchViewY>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>InsanityLiquidResearch</defName>
@@ -34,8 +34,8 @@
     <prerequisites>
       <li>TranquilizerLiquidResearch</li>
     </prerequisites>
-    <researchViewX>5</researchViewX>
-    <researchViewY>3.90</researchViewY>
+    <researchViewX>8.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>TranquilizerShellsReasearch</defName>
@@ -47,8 +47,8 @@
       <li>TranquilizerLiquidResearch</li>
       <li>Mortars</li>
     </prerequisites>
-    <researchViewX>9</researchViewX>
-    <researchViewY>5</researchViewY>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>InsanityGasShellsResearch</defName>
@@ -60,8 +60,8 @@
       <li>InsanityLiquidResearch</li>
       <li>Mortars</li>
     </prerequisites>
-    <researchViewX>9</researchViewX>
-    <researchViewY>4.60</researchViewY>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>TranquilizerTurrets</defName>
@@ -73,8 +73,8 @@
       <li>TranquilizerGuns</li>
       <li>GunTurrets</li>
     </prerequisites>
-    <researchViewX>10</researchViewX>
-    <researchViewY>2.25</researchViewY>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>4.10</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>TranquilizerGrenades</defName>
@@ -85,8 +85,8 @@
     <prerequisites>
       <li>TranquilizerGuns</li>
     </prerequisites>
-    <researchViewX>9</researchViewX>
-    <researchViewY>2.90</researchViewY>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>TranquilizerMinesResearch</defName>
@@ -98,8 +98,8 @@
       <li>TranquilizerGrenades</li>
       <li>IEDs</li>
     </prerequisites>
-    <researchViewX>12</researchViewX>
-    <researchViewY>3.90</researchViewY>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>5.10</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>InsanityGasMinesResearch</defName>
@@ -112,7 +112,7 @@
       <li>InsanityLiquidResearch</li>
       <li>IEDs</li>
     </prerequisites>
-    <researchViewX>12</researchViewX>
-    <researchViewY>3.50</researchViewY>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>2.70</researchViewY>
   </ResearchProjectDef>
 </Defs>

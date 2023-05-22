@@ -114,7 +114,7 @@
       <WorkToMake>12000</WorkToMake>
     </statBases>
     <recipeMaker>
-      <researchPrerequisite>TranquilizerGuns</researchPrerequisite>
+      <researchPrerequisite>TranquilizerGrenades</researchPrerequisite>
     </recipeMaker>
     <costList>
       <Steel>30</Steel>

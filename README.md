@@ -72,3 +72,4 @@ I guess guns became too weak:
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2606555060]Last updated 2023-05-22
