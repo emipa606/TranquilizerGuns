@@ -5,13 +5,13 @@ namespace Wowcheg.Tranquilizer;
 
 public class ProjectileTranquillizerBullet : Bullet
 {
-    public HediffDef HediffToAdd = HediffDefTranquilizer.Tranquilizer;
+    public readonly HediffDef HediffToAdd = HediffDefTranquilizer.Tranquilizer;
 
     public ThingDefTranquillizerBullet Def => def as ThingDefTranquillizerBullet;
 
     protected override void Impact(Thing hitThing, bool blockedByShield = false)
     {
-        base.Impact(hitThing);
+        base.Impact(hitThing, blockedByShield);
         if (Def == null || hitThing is not Pawn hitPawn)
         {
             return;
