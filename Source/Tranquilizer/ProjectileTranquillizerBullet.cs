@@ -12,7 +12,7 @@ public class ProjectileTranquillizerBullet : Bullet
     protected override void Impact(Thing hitThing, bool blockedByShield = false)
     {
         base.Impact(hitThing, blockedByShield);
-        if (Def == null || hitThing is not Pawn hitPawn)
+        if (Def == null || hitThing is not Pawn hitPawn || !hitPawn.RaceProps.IsFlesh)
         {
             return;
         }

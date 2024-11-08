@@ -10,7 +10,7 @@ public class DamageWorker_Tranquilizer_Gas : DamageWorker
     {
         var result = new DamageResult();
 
-        if (victim is not Pawn hitPawn)
+        if (victim is not Pawn hitPawn || !hitPawn.RaceProps.IsFlesh)
         {
             return result;
         }

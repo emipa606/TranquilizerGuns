@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef Class="Wowcheg.Tranquilizer.ThingDefTranquillizerBullet" ParentName="BaseBullet">
     <defName>Bullet_TranquillizerBullet</defName>

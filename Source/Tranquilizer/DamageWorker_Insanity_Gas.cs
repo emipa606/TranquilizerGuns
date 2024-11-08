@@ -14,6 +14,7 @@ public class DamageWorker_Insanity_Gas : DamageWorker
             return result;
         }
 
+
         if (Def.mentalStateDef != null)
         {
             hitPawn.mindState.mentalStateHandler.TryStartMentalState(Def.mentalStateDef);
