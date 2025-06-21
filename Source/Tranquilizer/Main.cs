@@ -27,12 +27,12 @@ internal static class Main
         {
             if (modSetting.Name == "ProjectileMechanics")
             {
-                TranquilizerMod.instance.Settings.ProjectileOneHit = true;
+                TranquilizerMod.Instance.Settings.ProjectileOneHit = true;
             }
 
             if (modSetting.Name == "GasMechanic")
             {
-                TranquilizerMod.instance.Settings.GasOneHit = true;
+                TranquilizerMod.Instance.Settings.GasOneHit = true;
             }
         }
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make insanity gas mortar shell -->
+  <Make_insanity_gas_shell.label>make insanity gas mortar shell</Make_insanity_gas_shell.label>
+  <!-- EN: Make tranquilizer gas mortar shell. -->
+  <Make_insanity_gas_shell.description>Make tranquilizer gas mortar shell.</Make_insanity_gas_shell.description>
+  <!-- EN: Making tranquilizer gas mortar shell. -->
+  <Make_insanity_gas_shell.jobString>Making tranquilizer gas mortar shell.</Make_insanity_gas_shell.jobString>
+  <!-- EN: make insanity liquid from sleep root leaves -->
+  <Make_insanity_liquid.label>make insanity liquid from sleep root leaves</Make_insanity_liquid.label>
+  <!-- EN: Make insanity liquid from sleep root leaves. -->
+  <Make_insanity_liquid.description>Make insanity liquid from sleep root leaves.</Make_insanity_liquid.description>
+  <!-- EN: Making insanity liquid from sleep root leaves. -->
+  <Make_insanity_liquid.jobString>Making insanity liquid from sleep root leaves.</Make_insanity_liquid.jobString>
+  <!-- EN: make tranquilizer liquid from sleep root leaves -->
+  <Make_tranquilizer_liquid.label>make tranquilizer liquid from sleep root leaves</Make_tranquilizer_liquid.label>
+  <!-- EN: Make tranquilizer liquid from sleep root leaves. -->
+  <Make_tranquilizer_liquid.description>Make tranquilizer liquid from sleep root leaves.</Make_tranquilizer_liquid.description>
+  <!-- EN: Making tranquilizer liquid from sleep root leaves. -->
+  <Make_tranquilizer_liquid.jobString>Making tranquilizer liquid from sleep root leaves.</Make_tranquilizer_liquid.jobString>
+  <!-- EN: make tranquilizer mortar shell -->
+  <Make_tranquilizer_shell.label>make tranquilizer mortar shell</Make_tranquilizer_shell.label>
+  <!-- EN: Make tranquilizer mortar shell. -->
+  <Make_tranquilizer_shell.description>Make tranquilizer mortar shell.</Make_tranquilizer_shell.description>
+  <!-- EN: Making tranquilizer mortar shell. -->
+  <Make_tranquilizer_shell.jobString>Making tranquilizer mortar shell.</Make_tranquilizer_shell.jobString>
+</LanguageData>

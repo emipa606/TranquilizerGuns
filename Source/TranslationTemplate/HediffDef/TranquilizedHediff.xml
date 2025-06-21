@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: tranquilizer -->
+  <Tranquilizer.label>tranquilizer</Tranquilizer.label>
+  <!-- EN: Tranquilizer makes people sleep. -->
+  <Tranquilizer.description>Tranquilizer makes people sleep.</Tranquilizer.description>
+  <!-- EN: Minor -->
+  <Tranquilizer.stages.Minor.label>Minor</Tranquilizer.stages.Minor.label>
+  <!-- EN: Moderate -->
+  <Tranquilizer.stages.Moderate.label>Moderate</Tranquilizer.stages.Moderate.label>
+  <!-- EN: Major -->
+  <Tranquilizer.stages.Major.label>Major</Tranquilizer.stages.Major.label>
+  <!-- EN: Critical -->
+  <Tranquilizer.stages.Critical.label>Critical</Tranquilizer.stages.Critical.label>
+</LanguageData>

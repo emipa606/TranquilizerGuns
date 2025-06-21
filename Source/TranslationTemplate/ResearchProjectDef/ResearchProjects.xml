@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: insanity mines -->
+  <InsanityGasMinesResearch.label>insanity mines</InsanityGasMinesResearch.label>
+  <!-- EN: Learn how to create insanity gas mines. -->
+  <InsanityGasMinesResearch.description>Learn how to create insanity gas mines.</InsanityGasMinesResearch.description>
+  <!-- EN: Insanity shells -->
+  <InsanityGasShellsResearch.label>Insanity shells</InsanityGasShellsResearch.label>
+  <!-- EN: Learn how to create insanity gas shells. -->
+  <InsanityGasShellsResearch.description>Learn how to create insanity gas shells.</InsanityGasShellsResearch.description>
+  <!-- EN: insanity liquid -->
+  <InsanityLiquidResearch.label>insanity liquid</InsanityLiquidResearch.label>
+  <!-- EN: Learn how to make insanity liquid from sleeproot. -->
+  <InsanityLiquidResearch.description>Learn how to make insanity liquid from sleeproot.</InsanityLiquidResearch.description>
+  <!-- EN: tranquilizer grenades -->
+  <TranquilizerGrenades.label>tranquilizer grenades</TranquilizerGrenades.label>
+  <!-- EN: Learn how to create tranquilizer grenades. -->
+  <TranquilizerGrenades.description>Learn how to create tranquilizer grenades.</TranquilizerGrenades.description>
+  <!-- EN: tranquilizer guns -->
+  <TranquilizerGuns.label>tranquilizer guns</TranquilizerGuns.label>
+  <!-- EN: Learn how to create tranquilizer guns. -->
+  <TranquilizerGuns.description>Learn how to create tranquilizer guns.</TranquilizerGuns.description>
+  <!-- EN: tranquilizer liquid -->
+  <TranquilizerLiquidResearch.label>tranquilizer liquid</TranquilizerLiquidResearch.label>
+  <!-- EN: Learn how to grow sleeproot and make tranquilizing liquid out of it.. -->
+  <TranquilizerLiquidResearch.description>Learn how to grow sleeproot and make tranquilizing liquid out of it..</TranquilizerLiquidResearch.description>
+  <!-- EN: tranquilizer mines -->
+  <TranquilizerMinesResearch.label>tranquilizer mines</TranquilizerMinesResearch.label>
+  <!-- EN: Learn how to create tranquilizer mines. -->
+  <TranquilizerMinesResearch.description>Learn how to create tranquilizer mines.</TranquilizerMinesResearch.description>
+  <!-- EN: tranquilizer shells -->
+  <TranquilizerShellsReasearch.label>tranquilizer shells</TranquilizerShellsReasearch.label>
+  <!-- EN: Learn how to create tranquilizer gas shells. -->
+  <TranquilizerShellsReasearch.description>Learn how to create tranquilizer gas shells.</TranquilizerShellsReasearch.description>
+  <!-- EN: tranquilizer turrets -->
+  <TranquilizerTurrets.label>tranquilizer turrets</TranquilizerTurrets.label>
+  <!-- EN: Learn how to create tranquilizer turrets. -->
+  <TranquilizerTurrets.description>Learn how to create tranquilizer turrets.</TranquilizerTurrets.description>
+</LanguageData>

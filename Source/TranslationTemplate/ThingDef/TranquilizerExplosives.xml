@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: insanity gas mine -->
+  <Insanity_gas_mine.label>insanity gas mine</Insanity_gas_mine.label>
+  <!-- EN: Insanity liquid bottle connected to explosive shells. Sprays cloud of insanity gas. -->
+  <Insanity_gas_mine.description>Insanity liquid bottle connected to explosive shells. Sprays cloud of insanity gas.</Insanity_gas_mine.description>
+  <!-- EN: insanity gas shell -->
+  <Shell_InsanityGas.label>insanity gas shell</Shell_InsanityGas.label>
+  <!-- EN: A shell filled with insanity gas. Explodes when damaged. -->
+  <Shell_InsanityGas.description>A shell filled with insanity gas. Explodes when damaged.</Shell_InsanityGas.description>
+  <!-- EN: tranquilizer gas shell -->
+  <Shell_Tranquilizer.label>tranquilizer gas shell</Shell_Tranquilizer.label>
+  <!-- EN: A shell filled with tranquilizer gas. Explodes when damaged. -->
+  <Shell_Tranquilizer.description>A shell filled with tranquilizer gas. Explodes when damaged.</Shell_Tranquilizer.description>
+  <!-- EN: tranquilizer mine -->
+  <Tranquilizer_mine.label>tranquilizer mine</Tranquilizer_mine.label>
+  <!-- EN: Tranquilizer bottle connected to explosive shells. Sprays cloud of sleeping gas. -->
+  <Tranquilizer_mine.description>Tranquilizer bottle connected to explosive shells. Sprays cloud of sleeping gas.</Tranquilizer_mine.description>
+  <!-- EN: tranquilizer grenades -->
+  <Weapon_GrenadeTranquilizer.label>tranquilizer grenades</Weapon_GrenadeTranquilizer.label>
+  <!-- EN: Tranquilizer grenades. -->
+  <Weapon_GrenadeTranquilizer.description>Tranquilizer grenades.</Weapon_GrenadeTranquilizer.description>
+  <!-- EN: throw tranquilizer grenade -->
+  <Weapon_GrenadeTranquilizer.verbs.throw_tranquilizer_grenade.label>throw tranquilizer grenade</Weapon_GrenadeTranquilizer.verbs.throw_tranquilizer_grenade.label>
+</LanguageData>

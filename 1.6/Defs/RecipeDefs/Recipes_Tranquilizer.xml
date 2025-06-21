@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>Make_tranquilizer_liquid</defName>
+    <label>make tranquilizer liquid from sleep root leaves</label>
+    <description>Make tranquilizer liquid from sleep root leaves.</description>
+    <jobString>Making tranquilizer liquid from sleep root leaves.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>sleep_root_leaves</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>sleep_root_leaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <TranquilizerLiquid>50</TranquilizerLiquid>
+    </products>
+    <researchPrerequisite>TranquilizerLiquidResearch</researchPrerequisite>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_insanity_liquid</defName>
+    <label>make insanity liquid from sleep root leaves</label>
+    <description>Make insanity liquid from sleep root leaves.</description>
+    <jobString>Making insanity liquid from sleep root leaves.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>sleep_root_leaves</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>sleep_root_leaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <InsanityLiquid>50</InsanityLiquid>
+    </products>
+    <researchPrerequisite>InsanityLiquidResearch</researchPrerequisite>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_tranquilizer_shell</defName>
+    <label>make tranquilizer mortar shell</label>
+    <description>Make tranquilizer mortar shell.</description>
+    <jobString>Making tranquilizer mortar shell.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>TranquilizerLiquid</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>TranquilizerLiquid</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Shell_Tranquilizer>1</Shell_Tranquilizer>
+    </products>
+    <researchPrerequisite>TranquilizerShellsReasearch</researchPrerequisite>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_insanity_gas_shell</defName>
+    <label>make insanity gas mortar shell</label>
+    <description>Make tranquilizer gas mortar shell.</description>
+    <jobString>Making tranquilizer gas mortar shell.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>InsanityLiquid</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>InsanityLiquid</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Shell_InsanityGas>1</Shell_InsanityGas>
+    </products>
+    <researchPrerequisite>InsanityGasShellsResearch</researchPrerequisite>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

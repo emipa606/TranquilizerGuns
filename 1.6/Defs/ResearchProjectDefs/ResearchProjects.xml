@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>TranquilizerLiquidResearch</defName>
+    <label>tranquilizer liquid</label>
+    <description>Learn how to grow sleeproot and make tranquilizing liquid out of it..</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>3.20</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>TranquilizerGuns</defName>
+    <label>tranquilizer guns</label>
+    <description>Learn how to create tranquilizer guns.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>TranquilizerLiquidResearch</li>
+      <li>Gunsmithing</li>
+    </prerequisites>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>InsanityLiquidResearch</defName>
+    <label>insanity liquid</label>
+    <description>Learn how to make insanity liquid from sleeproot.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>TranquilizerLiquidResearch</li>
+    </prerequisites>
+    <researchViewX>8.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>TranquilizerShellsReasearch</defName>
+    <label>tranquilizer shells</label>
+    <description>Learn how to create tranquilizer gas shells.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>TranquilizerLiquidResearch</li>
+      <li>Mortars</li>
+    </prerequisites>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>4.80</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>InsanityGasShellsResearch</defName>
+    <label>Insanity shells</label>
+    <description>Learn how to create insanity gas shells.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>InsanityLiquidResearch</li>
+      <li>Mortars</li>
+    </prerequisites>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>TranquilizerTurrets</defName>
+    <label>tranquilizer turrets</label>
+    <description>Learn how to create tranquilizer turrets.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>TranquilizerGuns</li>
+      <li>GunTurrets</li>
+    </prerequisites>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>4.10</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>TranquilizerGrenades</defName>
+    <label>tranquilizer grenades</label>
+    <description>Learn how to create tranquilizer grenades.</description>
+    <baseCost>1700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>TranquilizerGuns</li>
+    </prerequisites>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>TranquilizerMinesResearch</defName>
+    <label>tranquilizer mines</label>
+    <description>Learn how to create tranquilizer mines.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>TranquilizerGrenades</li>
+      <li>IEDs</li>
+    </prerequisites>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>5.10</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>InsanityGasMinesResearch</defName>
+    <label>insanity mines</label>
+    <description>Learn how to create insanity gas mines.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>TranquilizerGrenades</li>
+      <li>InsanityLiquidResearch</li>
+      <li>IEDs</li>
+    </prerequisites>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>2.70</researchViewY>
+  </ResearchProjectDef>
+</Defs>

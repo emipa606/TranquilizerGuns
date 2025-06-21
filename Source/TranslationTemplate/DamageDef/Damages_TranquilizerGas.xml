@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: insanity gas -->
+  <InsanityGasDamageDef.label>insanity gas</InsanityGasDamageDef.label>
+  <!-- EN: {0} has been killed. -->
+  <InsanityGasDamageDef.deathMessage>{0} has been killed.</InsanityGasDamageDef.deathMessage>
+  <!-- EN: tranquilizer gas -->
+  <TranquilizerGasDamageDef.label>tranquilizer gas</TranquilizerGasDamageDef.label>
+  <!-- EN: {0} has been killed. -->
+  <TranquilizerGasDamageDef.deathMessage>{0} has been killed.</TranquilizerGasDamageDef.deathMessage>
+</LanguageData>

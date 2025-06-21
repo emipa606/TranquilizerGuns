@@ -10,7 +10,7 @@ internal class TranquilizerMod : Mod
     /// <summary>
     ///     The instance of the settings to be read by the mod
     /// </summary>
-    public static TranquilizerMod instance;
+    public static TranquilizerMod Instance;
 
     private static string currentVersion;
 
@@ -25,7 +25,7 @@ internal class TranquilizerMod : Mod
     /// <param name="content"></param>
     public TranquilizerMod(ModContentPack content) : base(content)
     {
-        instance = this;
+        Instance = this;
         currentVersion =
             VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
     }
@@ -37,14 +37,10 @@ internal class TranquilizerMod : Mod
     {
         get
         {
-            if (settings == null)
-            {
-                settings = GetSettings<TranquilizerSettings>();
-            }
+            settings ??= GetSettings<TranquilizerSettings>();
 
             return settings;
         }
-        set => settings = value;
     }
 
     /// <summary>
@@ -63,40 +59,40 @@ internal class TranquilizerMod : Mod
     /// <param name="rect"></param>
     public override void DoSettingsWindowContents(Rect rect)
     {
-        var listing_Standard = new Listing_Standard();
-        listing_Standard.Begin(rect);
-        listing_Standard.Gap();
-        listing_Standard.Label("Projectile_mechanics_settings_description".Translate());
-        if (listing_Standard.RadioButton("settings_OneHitMechanics".Translate(), Settings.ProjectileOneHit))
+        var listingStandard = new Listing_Standard();
+        listingStandard.Begin(rect);
+        listingStandard.Gap();
+        listingStandard.Label("Projectile_mechanics_settings_description".Translate());
+        if (listingStandard.RadioButton("settings_OneHitMechanics".Translate(), Settings.ProjectileOneHit))
         {
             Settings.ProjectileOneHit = true;
         }
 
-        if (listing_Standard.RadioButton("settings_WeightScaleMechanics".Translate(), !Settings.ProjectileOneHit))
+        if (listingStandard.RadioButton("settings_WeightScaleMechanics".Translate(), !Settings.ProjectileOneHit))
         {
             Settings.ProjectileOneHit = false;
         }
 
-        listing_Standard.Gap();
-        listing_Standard.Label("Gas_mechanics_settings_description".Translate());
-        if (listing_Standard.RadioButton("settings_OneHitMechanics".Translate(), Settings.GasOneHit))
+        listingStandard.Gap();
+        listingStandard.Label("Gas_mechanics_settings_description".Translate());
+        if (listingStandard.RadioButton("settings_OneHitMechanics".Translate(), Settings.GasOneHit))
         {
             Settings.GasOneHit = true;
         }
 
-        if (listing_Standard.RadioButton("settings_WeightScaleMechanics".Translate(), !Settings.GasOneHit))
+        if (listingStandard.RadioButton("settings_WeightScaleMechanics".Translate(), !Settings.GasOneHit))
         {
             Settings.GasOneHit = false;
         }
 
         if (currentVersion != null)
         {
-            listing_Standard.Gap();
+            listingStandard.Gap();
             GUI.contentColor = Color.gray;
-            listing_Standard.Label("settings_CurrentModVersion".Translate(currentVersion));
+            listingStandard.Label("settings_CurrentModVersion".Translate(currentVersion));
             GUI.contentColor = Color.white;
         }
 
-        listing_Standard.End();
+        listingStandard.End();
     }
 }

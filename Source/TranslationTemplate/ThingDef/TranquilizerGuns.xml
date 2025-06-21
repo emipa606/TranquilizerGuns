@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: tranquilizer rifle -->
+  <Gun_TranquilizerRifle.label>tranquilizer rifle</Gun_TranquilizerRifle.label>
+  <!-- EN: Rifle shooting bullets filled with tranquilizer. -->
+  <Gun_TranquilizerRifle.description>Rifle shooting bullets filled with tranquilizer.</Gun_TranquilizerRifle.description>
+  <!-- EN: stock -->
+  <Gun_TranquilizerRifle.tools.stock.label>stock</Gun_TranquilizerRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_TranquilizerRifle.tools.barrel.label>barrel</Gun_TranquilizerRifle.tools.barrel.label>
+  <!-- EN: tranquilizer rifle -->
+  <Gun_TranquilizerRifle.verbs.Verb_Shoot.label>tranquilizer rifle</Gun_TranquilizerRifle.verbs.Verb_Shoot.label>
+  <!-- EN: tranquilizer pistol -->
+  <Gun_Tranquillzer_Pistol.label>tranquilizer pistol</Gun_Tranquillzer_Pistol.label>
+  <!-- EN: Pistol shooting bullets filled with tranquilizer. -->
+  <Gun_Tranquillzer_Pistol.description>Pistol shooting bullets filled with tranquilizer.</Gun_Tranquillzer_Pistol.description>
+  <!-- EN: grip -->
+  <Gun_Tranquillzer_Pistol.tools.grip.label>grip</Gun_Tranquillzer_Pistol.tools.grip.label>
+  <!-- EN: barrel -->
+  <Gun_Tranquillzer_Pistol.tools.barrel.label>barrel</Gun_Tranquillzer_Pistol.tools.barrel.label>
+  <!-- EN: tranquilizer pistol -->
+  <Gun_Tranquillzer_Pistol.verbs.Verb_Shoot.label>tranquilizer pistol</Gun_Tranquillzer_Pistol.verbs.Verb_Shoot.label>
+</LanguageData>

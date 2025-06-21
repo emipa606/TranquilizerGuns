@@ -16,7 +16,7 @@ public class DamageWorker_Tranquilizer_Gas : DamageWorker
         }
 
         var pawnAnethesized = hitPawn.health?.hediffSet?.GetFirstHediffOfDef(HediffDefTranquilizer.Tranquilizer);
-        var addedSeverity = TranquilizerMod.instance.Settings.GasOneHit
+        var addedSeverity = TranquilizerMod.Instance.Settings.GasOneHit
             ? 1f
             : Rand.Range(0.9f, 1.5f) / hitPawn.BodySize;
         if (pawnAnethesized != null)

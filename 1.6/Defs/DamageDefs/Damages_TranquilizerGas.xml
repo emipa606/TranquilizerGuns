@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef>
+    <defName>TranquilizerGasDamageDef</defName>
+    <label>tranquilizer gas</label>
+    <canInterruptJobs>false</canInterruptJobs>
+    <workerClass>Wowcheg.Tranquilizer.DamageWorker_Tranquilizer_Gas</workerClass>
+    <makesBlood>false</makesBlood>
+    <defaultDamage>10</defaultDamage>
+    <explosionCellFleck>BlastExtinguisher</explosionCellFleck>
+    <explosionColorEdge>(0, 1, 0, 0.05)</explosionColorEdge>
+    <harmsHealth>false</harmsHealth>
+    <soundExplosion>Explosion_Smoke</soundExplosion>
+  </DamageDef>
+  <DamageDef Class="Wowcheg.Tranquilizer.InsanityGasDamageDef">
+    <defName>InsanityGasDamageDef</defName>
+    <label>insanity gas</label>
+    <canInterruptJobs>false</canInterruptJobs>
+    <workerClass>Wowcheg.Tranquilizer.DamageWorker_Insanity_Gas</workerClass>
+    <makesBlood>false</makesBlood>
+    <defaultDamage>10</defaultDamage>
+    <explosionCellFleck>BlastExtinguisher</explosionCellFleck>
+    <explosionColorEdge>(0, 1, 0, 0.05)</explosionColorEdge>
+    <harmsHealth>false</harmsHealth>
+    <soundExplosion>Explosion_Smoke</soundExplosion>
+    <mentalStateDef>Berserk</mentalStateDef>
+  </DamageDef>
+</Defs>

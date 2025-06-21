@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 2892504339
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e1c18c6e79f6b7f6d8a30a03bc241913
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e1c18c6e79f6b7f6d8a30a03bc241913
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Item/Projectile/Shell_InsanityGas/Shell_InsanityGas_c.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Item/Projectile/Shell_Tranquilizer/Shell_Tranquilizer_a.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Building/Security/TranquilizerTurret_Top.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Item/Projectile/Tranquilizer_dart.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Item/Equipment/WeaponRanged/TranquilizerRifle.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Building/Security/TranquilizerMine.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Item/Equipment/WeaponRanged/TranqGrenade.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Plant/Sleeproot/SleeprootA.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Item/Equipment/WeaponRanged/TranquilizerPistol.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Building/Security/InsanityGasMine.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Item/Projectile/Shell_InsanityGas/Shell_InsanityGas_b.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Item/Equipment/WeaponRanged/TranqGrenades.png
+- Assets/Data/Mlie.TranquilizerGuns/Sounds/Weapon/SilencedTranquilizer.wav
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Item/Projectile/Shell_Tranquilizer/Shell_Tranquilizer_b.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Item/Projectile/Shell_InsanityGas/Shell_InsanityGas_a.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Item/Projectile/Shell_Tranquilizer/Shell_Tranquilizer_c.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Resource/Sleeproot/Sleeproot.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Building/Security/TranquilizerTurret_Base.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Building/Security/TurretTranquilizer_MenuIcon.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Resource/InsanityLiquid.png
+- Assets/Data/Mlie.TranquilizerGuns/Textures/TranquilizerMod/Things/Resource/TranquilizerLiquid.png
+Dependencies: []

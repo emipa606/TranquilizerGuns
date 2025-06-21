@@ -5,9 +5,9 @@ namespace Wowcheg.Tranquilizer;
 
 public class ProjectileTranquillizerBullet : Bullet
 {
-    public readonly HediffDef HediffToAdd = HediffDefTranquilizer.Tranquilizer;
+    private readonly HediffDef hediffToAdd = HediffDefTranquilizer.Tranquilizer;
 
-    public ThingDefTranquillizerBullet Def => def as ThingDefTranquillizerBullet;
+    private ThingDefTranquillizerBullet Def => def as ThingDefTranquillizerBullet;
 
     protected override void Impact(Thing hitThing, bool blockedByShield = false)
     {
@@ -17,8 +17,8 @@ public class ProjectileTranquillizerBullet : Bullet
             return;
         }
 
-        var pawnAnethesized = hitPawn.health?.hediffSet?.GetFirstHediffOfDef(HediffToAdd);
-        var addedSeverity = TranquilizerMod.instance.Settings.ProjectileOneHit
+        var pawnAnethesized = hitPawn.health?.hediffSet?.GetFirstHediffOfDef(hediffToAdd);
+        var addedSeverity = TranquilizerMod.Instance.Settings.ProjectileOneHit
             ? 1f
             : Rand.Range(0.20f, 0.50f) / hitPawn.BodySize;
         if (pawnAnethesized != null)
@@ -27,7 +27,7 @@ public class ProjectileTranquillizerBullet : Bullet
         }
         else
         {
-            var hediff = HediffMaker.MakeHediff(HediffToAdd, hitPawn);
+            var hediff = HediffMaker.MakeHediff(hediffToAdd, hitPawn);
             hediff.Severity = addedSeverity;
             hitPawn.health?.AddHediff(hediff);
         }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: tranquilizer shell -->
+  <Bullet_Shell_Tranquilizer.label>tranquilizer shell</Bullet_Shell_Tranquilizer.label>
+  <!-- EN: tranquillizing rifle bullet -->
+  <Bullet_TranquillizerBullet.label>tranquillizing rifle bullet</Bullet_TranquillizerBullet.label>
+  <!-- EN: tranquilizer shell -->
+  <Insanity_Gas_Shell_Tranquilizer.label>tranquilizer shell</Insanity_Gas_Shell_Tranquilizer.label>
+  <!-- EN: tranquilizer grenade -->
+  <Tranquilizer_grenade.label>tranquilizer grenade</Tranquilizer_grenade.label>
+</LanguageData>

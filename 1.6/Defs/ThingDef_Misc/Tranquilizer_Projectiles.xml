@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Class="Wowcheg.Tranquilizer.ThingDefTranquillizerBullet" ParentName="BaseBullet">
+    <defName>Bullet_TranquillizerBullet</defName>
+    <label>tranquillizing rifle bullet</label>
+    <graphicData>
+      <texPath>TranquilizerMod/Things/Item/Projectile/Tranquilizer_dart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>50</speed>
+    </projectile>
+    <HediffToAdd>Tranquilizer</HediffToAdd>
+    <thingClass>Wowcheg.Tranquilizer.ProjectileTranquillizerBullet</thingClass>
+  </ThingDef>
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>Tranquilizer_grenade</defName>
+    <label>tranquilizer grenade</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>TranquilizerMod/Things/Item/Equipment/WeaponRanged/TranqGrenade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>5</explosionRadius>
+      <damageDef>TranquilizerGasDamageDef</damageDef>
+      <explosionDelay>40</explosionDelay>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Shell_Tranquilizer</defName>
+    <label>tranquilizer shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ShellHighExplosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>TranquilizerGasDamageDef</damageDef>
+      <speed>41</speed>
+      <explosionRadius>3.6</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Insanity_Gas_Shell_Tranquilizer</defName>
+    <label>tranquilizer shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ShellHighExplosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>InsanityGasDamageDef</damageDef>
+      <speed>41</speed>
+      <explosionRadius>3.6</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+</Defs>

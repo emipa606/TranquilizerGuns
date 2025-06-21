@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: insanity liquid -->
+  <InsanityLiquid.label>insanity liquid</InsanityLiquid.label>
+  <!-- EN: Blue liquid with psychic effect. Victim became berserk. Explodes when touched by fire. -->
+  <InsanityLiquid.description>Blue liquid with psychic effect. Victim became berserk. Explodes when touched by fire.</InsanityLiquid.description>
+  <!-- EN: sleeproot -->
+  <Plant_Sleeproot.label>sleeproot</Plant_Sleeproot.label>
+  <!-- EN: This plant's juice has powerful tranquilizing effect. Can be used for tranquilizing liquid production. -->
+  <Plant_Sleeproot.description>This plant's juice has powerful tranquilizing effect. Can be used for tranquilizing liquid production.</Plant_Sleeproot.description>
+  <!-- EN: sleeproot leaves. -->
+  <sleep_root_leaves.label>sleeproot leaves.</sleep_root_leaves.label>
+  <!-- EN: Sleeproot leaves. Very juicy. -->
+  <sleep_root_leaves.description>Sleeproot leaves. Very juicy.</sleep_root_leaves.description>
+  <!-- EN: tranquilizer liquid -->
+  <TranquilizerLiquid.label>tranquilizer liquid</TranquilizerLiquid.label>
+  <!-- EN: Green liquid with strong tranquilizing effect. Explodes when touched by fire. -->
+  <TranquilizerLiquid.description>Green liquid with strong tranquilizing effect. Explodes when touched by fire.</TranquilizerLiquid.description>
+</LanguageData>
