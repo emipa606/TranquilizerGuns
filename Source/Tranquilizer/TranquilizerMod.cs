@@ -1,4 +1,5 @@
 ﻿using Mlie;
+using RimWorld;
 using UnityEngine;
 using Verse;
 
@@ -13,11 +14,6 @@ internal class TranquilizerMod : Mod
     public static TranquilizerMod Instance;
 
     private static string currentVersion;
-
-    /// <summary>
-    ///     The private settings
-    /// </summary>
-    private TranquilizerSettings settings;
 
     /// <summary>
     ///     Constructor
@@ -37,9 +33,9 @@ internal class TranquilizerMod : Mod
     {
         get
         {
-            settings ??= GetSettings<TranquilizerSettings>();
+            field ??= GetSettings<TranquilizerSettings>();
 
-            return settings;
+            return field;
         }
     }
 
@@ -56,11 +52,11 @@ internal class TranquilizerMod : Mod
     ///     The settings-window
     ///     For more info: https://rimworldwiki.com/wiki/Modding_Tutorials/ModSettings
     /// </summary>
-    /// <param name="rect"></param>
-    public override void DoSettingsWindowContents(Rect rect)
+    /// <param name="inRect"></param>
+    public override void DoSettingsWindowContents(Rect inRect)
     {
         var listingStandard = new Listing_Standard();
-        listingStandard.Begin(rect);
+        listingStandard.Begin(inRect);
         listingStandard.Gap();
         listingStandard.Label("Projectile_mechanics_settings_description".Translate());
         if (listingStandard.RadioButton("settings_OneHitMechanics".Translate(), Settings.ProjectileOneHit))
@@ -85,6 +81,11 @@ internal class TranquilizerMod : Mod
             Settings.GasOneHit = false;
         }
 
+        Settings.TranquilizerDurationTicks = (int)listingStandard.SliderLabeled(
+            "settings_TranquilizerDuration".Translate(Settings.TranquilizerDurationTicks.ToStringTicksToPeriod()),
+            Settings.TranquilizerDurationTicks,
+            1, 20000);
+
         if (currentVersion != null)
         {
             listingStandard.Gap();
@@ -94,5 +95,11 @@ internal class TranquilizerMod : Mod
         }
 
         listingStandard.End();
+    }
+
+    public override void WriteSettings()
+    {
+        base.WriteSettings();
+        Main.UpdateTranquilizerDuration();
     }
 }

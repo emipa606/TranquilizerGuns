@@ -9,6 +9,7 @@ internal class TranquilizerSettings : ModSettings
 {
     public bool GasOneHit;
     public bool ProjectileOneHit;
+    public int TranquilizerDurationTicks = 5000;
 
     /// <summary>
     ///     Saving and loading the values
@@ -18,5 +19,6 @@ internal class TranquilizerSettings : ModSettings
         base.ExposeData();
         Scribe_Values.Look(ref ProjectileOneHit, "ProjectileOneHit");
         Scribe_Values.Look(ref GasOneHit, "GasOneHit");
+        Scribe_Values.Look(ref TranquilizerDurationTicks, "TranquilizerDurationTicks", 5000);
     }
 }

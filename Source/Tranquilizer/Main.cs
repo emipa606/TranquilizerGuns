@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Linq;
 using System.Xml.Linq;
 using Verse;
 
@@ -9,6 +10,7 @@ internal static class Main
 {
     static Main()
     {
+        UpdateTranquilizerDuration();
         var hugsLibConfig = Path.Combine(GenFilePaths.SaveDataFolderPath, Path.Combine("HugsLib", "ModSettings.xml"));
         if (!new FileInfo(hugsLibConfig).Exists)
         {
@@ -23,22 +25,28 @@ internal static class Main
             return;
         }
 
-        foreach (var modSetting in modSettings.Elements())
+        foreach (var modSetting in modSettings.Elements().Select(setting => setting.Name))
         {
-            if (modSetting.Name == "ProjectileMechanics")
+            if (modSetting == "ProjectileMechanics")
             {
                 TranquilizerMod.Instance.Settings.ProjectileOneHit = true;
             }
 
-            if (modSetting.Name == "GasMechanic")
+            if (modSetting == "GasMechanic")
             {
                 TranquilizerMod.Instance.Settings.GasOneHit = true;
             }
         }
 
-        xml.Root.Element("TranquilizerGunsSetting")?.Remove();
+        xml.Root?.Element("TranquilizerGunsSetting")?.Remove();
         xml.Save(hugsLibConfig);
 
         Log.Message("[TranquilizerGunsSetting]: Imported old HugLib-settings");
+    }
+
+    public static void UpdateTranquilizerDuration()
+    {
+        HediffDefTranquilizer.Tranquilizer.CompProps<HediffCompProperties_Disappears>().disappearsAfterTicks =
+            new IntRange(TranquilizerMod.Instance.Settings.TranquilizerDurationTicks);
     }
 }

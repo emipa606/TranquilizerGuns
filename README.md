@@ -1,15 +1,15 @@
 # [Tranquilizer guns (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2606555060)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Wowchegs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1261792381
 
 - Migrated from old HugsLib settings
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 Adds tranquilizer rifle, pistol, sleep gas grenades, tranquilizer autoturrets. Tranquilizing mechanics: any affected target gets stacking 'Tranquilized' effect. It's effectiveness depends on target's body size. Grenades makes great AOE sleep gas effect. Now with insanity liquid. Can be made of sleeproot leaves on drugs table.
 ! Now Huglib mod needs to be installed and loaded before this mod. !
@@ -57,13 +57,13 @@ I guess guns became too weak:
 - Both gun now have reduced accuracy
 - Reduced tranquilizer bullet speed
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -71,4 +71,4 @@ I guess guns became too weak:
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/TranquilizerGuns?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2606555060) | tags:  sedative,  insanity
+[![Image](https://img.shields.io/github/v/release/emipa606/TranquilizerGuns?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2606555060) | insanity, sedative

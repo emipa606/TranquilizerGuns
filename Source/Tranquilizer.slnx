@@ -3,4 +3,38 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="Tranquilizer/Tranquilizer.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Defs/RecipeDefs/">
+    <File Path="../1.6/Defs/RecipeDefs/Recipes_Tranquilizer.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Defs/Hediff/">
+    <File Path="../1.6/Defs/Hediff/TranquilizedHediff.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Defs/Effects/">
+    <File Path="../1.6/Defs/Effects/Effecter_TranquilizerExplosion.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Defs/ResearchProjectDefs/">
+    <File Path="../1.6/Defs/ResearchProjectDefs/ResearchProjects.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Defs/DamageDefs/">
+    <File Path="../1.6/Defs/DamageDefs/Damages_TranquilizerGas.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Keys.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Defs/">
+    <File Path="../1.6/Defs/TranquilizerGunsPackage.xml" />
+  </Folder>
+  <Folder Name="/XML/1.6/Defs/ThingDef_Misc/">
+    <File Path="../1.6/Defs/ThingDef_Misc/Tranquilizer_Projectiles.xml" />
+    <File Path="../1.6/Defs/ThingDef_Misc/TranquilizerBase.xml" />
+    <File Path="../1.6/Defs/ThingDef_Misc/TranquilizerExplosives.xml" />
+    <File Path="../1.6/Defs/ThingDef_Misc/TranquilizerGuns.xml" />
+    <File Path="../1.6/Defs/ThingDef_Misc/TranquilizerTurret.xml" />
+  </Folder>
 </Solution>
